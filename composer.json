@@ -1,0 +1,21 @@
+{
+  "name": "markdunphy/mailchimp-php",
+  "description": "PHP 5.4+ PSR-2 compliant wrapper for the MailChimp API.",
+  "keywords": ["mailchimp", "email"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Dunphy",
+      "email": "dunphy@adobe.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "symfony/http-foundation": "2.4.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "MailChimp": "src/"
+    }
+  }
+}
